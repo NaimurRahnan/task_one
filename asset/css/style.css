@@ -1,0 +1,338 @@
+/* google font*/
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.navbar-brand{
+    margin-left: 200px;
+    color: white;
+    font-family: "Faster One", system-ui;
+    font-size: 25px;
+    
+}
+.navbar-brand:hover{
+    color: rgb(210, 23, 231);
+}
+.navbar-nav{
+    margin-left: 400px;
+    
+}
+.nav-link{
+    margin-left: 20px;
+    color: whitesmoke;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 20px;
+   
+}
+.nav-link:hover{
+    color: orange;
+}
+/* navbar section end */
+
+.home-content h5{
+    text-align:left;
+    color: orange;
+    margin-top: 30px;
+    font-family: "New Amsterdam", sans-serif;
+}
+.home-content h1{
+    color: white;
+    font-size: 60px;
+    font-family: "New Amsterdam", sans-serif;
+}
+.home-img{
+    margin-top: -40px;
+    text-align: center;
+}
+
+/* home section end */
+
+
+
+.about-right h5{
+    color:white;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+}
+.about-right h2,li{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.about-dv h2:hover{
+    color: orange;
+}
+.about-right h1{
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.about-dv{
+    margin-top: 15px;
+}
+/* about section end */
+
+.resume-left{
+    margin-top: 80px;
+}
+.resume-left h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: "New Amsterdam", sans-serif;
+}
+.first-row {
+    border-radius: 10px;
+    width: 500px;
+    background-color: rgb(42, 41, 41);
+    margin-left: 100px;
+    
+}
+.first-row h3{
+    margin-top: 20px;
+    color: orange;
+}
+.first-row h2{
+    color: white;
+}
+
+.first-row p{
+    text-align: justify-left;
+    color: gray;
+}
+.first-row h5{
+    text-align: left;
+}
+/* resume section end */
+.service-row{
+    background-color: rgb(42, 41, 41);
+}
+.services h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "New Amsterdam", sans-serif;
+}
+.service-row  {
+   color:orange;
+   font-size: 50px;
+   text-align: center;
+   height: 250px;
+   padding-top: 20px;
+   width: 400px;
+   margin-left: 22px;
+}
+.service-row hr{
+    width: 50px;
+    text-align: center;
+    margin-left: 160px;
+    color: #f0a417;
+   
+}
+.service-row h4{
+    color: white;
+    margin-top: 20px;
+}
+.service-row:hover{
+    background-color: orange;
+   
+}
+.service-row i{
+    font-size: 50px;
+    color: orange;
+}
+.service-row:hover i{
+    color: white;
+}
+
+.service-row:hover h4{
+    color: black;
+}
+.service-row:hover hr{
+    color:black;
+}
+/*services end*/
+.skills h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family: "New Amsterdam", sans-serif;
+}
+.skills-head{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.skills-head p{
+    margin-right: 150px;
+}
+/* skills section end */
+.con-icon{
+    background-color: rgb(112, 109, 109);
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 120px;
+    
+}
+
+.con-icon i{
+    color: orange;
+    font-size: 30px;
+    margin-top: 36px;
+  
+}
+.contact-icon h3,h5{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.con-first h3,h5{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+  
+}
+.con-first a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+.left-contact{
+    background: #08194a;
+    padding: 60px;
+    color: #fff;
+    margin-left: 150px;
+}
+.left-contact h3{
+    font-family: bebas neue;
+    margin-bottom: 20px;
+}
+label{
+    font-family: bebas neue;
+    font-size: 28px;
+    margin: 10px 0;
+}
+.contact-btn{
+    background: #d7099d;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+
+}
+ .contact-btn:hover{
+    background-color: #0eb5c8;
+    color:#08194a;
+}
+.f-right{
+    background-color: #1d1a1c;
+    height: 500px;
+    width: 70%;
+}
+.f-right img {
+   margin-left: 80px;
+   height: 700px;
+   
+}
+
+/* contact section end */
+.social h4{
+    text-align: left;
+    color: gray;
+}
+.social h4:hover{
+    color:orange;
+}
+.social a, i{
+   margin-left: 5px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 18px;
+   color: gray;
+}
+.social a, i:hover{
+    color: orange;
+   
+}
+
+
+.linkscol a,h4{
+    text-decoration: none;
+    color:gray;
+}
+.linkscol h4:hover{
+    color: orange;
+}
+.linkscol a:hover{
+    color:orange;
+}
+
+
+.servicescol a,h4{
+    text-decoration: none;
+    color:gray;
+}
+.servicescol h4:hover{
+    color: orange;
+}
+.servicescol a:hover{
+    color:orange;
+}
+
+.contactcol p,h4{
+    
+    color:gray;
+}
+.contactcol h4:hover{
+    color: orange;
+}
+.contactcol  p:hover{
+    color:orange;
+}
+.contactcol i:hover{
+    color:orange
+}
+
+
+.first-row{
+    background-color:#001524;
+    animation-name:example;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+   }
+   @keyframes example{
+       0%{
+           background-color: #001524;
+       }
+       25%{
+           background-color: #3E001F;
+       }
+       50%{
+           background-color: #2A0944;
+       }
+       75%{
+           background-color: #041e2f;
+       }
+       100%{
+           background-color: #461959;
+       }
+   } 
+
+ 
+   
+    
